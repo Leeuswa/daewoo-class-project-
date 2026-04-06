@@ -23,7 +23,7 @@ abstract class BaseEntity {
     @CreatedDate // 엔티티 생성 시 자동 저장
     @Column(name ="regdate", updatable = false)
     // updatable = false → 한번 저장되면 수정 불가
-    private LocalDateTime reDate;
+    private LocalDateTime regDate;
 
     @LastModifiedDate
     // 수정될 때마다 자동으로 시간 갱신
