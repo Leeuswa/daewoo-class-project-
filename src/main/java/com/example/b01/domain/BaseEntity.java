@@ -28,5 +28,5 @@ abstract class BaseEntity {
     @LastModifiedDate
     // 수정될 때마다 자동으로 시간 갱신
     @Column(name = "moddate")
-    private LocalDateTime moDate;
+    private LocalDateTime modDate;
 }
